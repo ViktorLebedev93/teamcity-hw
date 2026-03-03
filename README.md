@@ -24,11 +24,26 @@ https://github.com/ViktorLebedev93/example-teamcity
 
 ## Основная часть
 
-1. Создайте новый проект в teamcity на основе fork.
-2. Сделайте autodetect конфигурации.
-3. Сохраните необходимые шаги, запустите первую сборку master.
-4. Поменяйте условия сборки: если сборка по ветке `master`, то должен происходит `mvn clean deploy`, иначе `mvn clean test`.
-5. Для deploy будет необходимо загрузить [settings.xml](./teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
+1. Создал новый проект в teamcity на основе fork.
+
+![img4](img/img4.jpg)
+
+2. Сделал autodetect конфигурации.
+
+![img5](img/img5.jpg)
+
+3. Сохранил необходимые шаги, запустил первую сборку master.
+
+![img6](img/img6.jpg)
+
+4. Поменял условия сборки: если сборка по ветке `master`, то должен происходит `mvn clean deploy`, иначе `mvn clean test`.
+
+![img7](img/img7.jpg)
+
+5. Для deploy загрузил [settings.xml](./teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
+
+![img8](img/img8.jpg)
+
 6. В pom.xml необходимо поменять ссылки на репозиторий и nexus.
 7. Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
 8. Мигрируйте `build configuration` в репозиторий.
