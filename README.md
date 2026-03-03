@@ -44,7 +44,10 @@ https://github.com/ViktorLebedev93/example-teamcity
 
 ![img8](img/img8.jpg)
 
-6. В pom.xml необходимо поменять ссылки на репозиторий и nexus.
+6. В pom.xml поменял ссылку на репозиторий и nexus.
+
+![img9](img/img9.jpg)
+
 7. Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
 8. Мигрируйте `build configuration` в репозиторий.
 9. Создайте отдельную ветку `feature/add_reply` в репозитории.
