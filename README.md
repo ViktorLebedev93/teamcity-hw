@@ -12,6 +12,15 @@
 Создал инстансы в Yandex Cloud
 ![img1](img/img1.jpg)
 
+Авторизовал агент
+![img2](img/img2.jpg)
+
+Создал VM с Nexus
+![img3](img/img3.jpg)
+
+Создал форк репозитория
+https://github.com/ViktorLebedev93/example-teamcity
+
 
 ## Основная часть
 
